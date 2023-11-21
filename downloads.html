@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Page</title>
+    <style>
+        /* style.css */
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+
+        header {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        @media (min-width: 768px) {
+            .download-section {
+                width: 500px;
+                margin: 20px 0;
+            }
+        }
+
+        @media (max-width: 767px) {
+            main {
+                flex-direction: column-reverse;
+            }
+
+            .download-section {
+                width: 100%;
+                margin: 0;
+            }
+        }
+
+        .download-section {
+            border-radius: 10px;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .download-section h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+
+        .download-button {
+            background-color: #2196F3;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            position: fixed;
+            /* Position the footer at the bottom of the page */
+            bottom: 0;
+            /* Set the footer to stick to the bottom */
+            width: 100%;
+            /* Make the footer span the entire width of the page */
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 12px;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Download Available Files & Softwares</h1>
+    </header>
+    <main>
+        <section class="download-section">
+            <h2>Download Softwares</h2>
+            <ul>
+                <li>
+                    <a
+                        href="https://fileshare.mkcl.org/index.php/s/aLkrHnj3NZeweQY/download?path=%2F&files=MKCL%20ERA%20Live%20Setup%2023.7.5%20ELP%20-64%20Bit.exe">
+                        <button class="download-button">
+                            Era Live 64 bit
+                        </button>
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="https://fileshare.mkcl.org/index.php/s/aLkrHnj3NZeweQY/download?path=%2F&files=MKCL%20ERA%20Live%20Setup%2023.7.5%20ELP%20-%2032%20Bit.exe">
+                        <button class="download-button">
+                            Era Live 32 bit
+                        </button>
+                    </a>
+                </li>
+                
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 ISIT</p>
+    </footer>
+</body>
+
+</html>
